@@ -71,7 +71,22 @@ a {
   margin-bottom: 0;
   padding: 5px;
   font-size: px; }
-
+/*----------------------progers bar------------------------------------*/
+.progress-container {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 4;
+    transform: 100%;
+    background: #ccc;
+}
+  
+.progress-bar {
+    height: 8px;
+    background: #00D6D6;
+    width: 0%;
+}
 /*----------------------------------------------------*/
 .sign-in {
   --border: 5px;    
@@ -150,7 +165,7 @@ nav ul .bar a:hover::after{
 
 /*--------------------------------------------------------------------------*/
 
-      
+
 .site-navbar .site-navigation .site-menu a {
   text-decoration: none !important;
   display: inline-block; }
