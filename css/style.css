@@ -187,7 +187,45 @@ a {
           margin-top: 0px;
           visibility: visible;
           opacity: 1; }
-
+          .site-menu {
+            list-style: none;
+            padding: 0;
+          }
+          
+          /* Style for each menu item */
+          .site-menu .bar {
+            position: relative;
+            display: inline-block;
+            margin-right: 20px;
+            padding-bottom: 3px; /* Space for the moving line */
+            cursor: pointer;
+            transition: text-shadow 0.3s ease-in-out;
+          }
+       
+          
+          /* Style for the line that moves left to right */
+          .site-menu .bar::before {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 4px; /* Adjust the height of the line as needed */
+            bottom: 0;
+            left: 0;
+            background-color: #00d6d6; /* Adjust the color of the line as needed */
+            transition: width 0.3s ease-in-out; /* Control the animation speed here */
+          }
+          
+          /* Hover effect for the line */
+          .site-menu .bar:hover::before {
+            width: 100%;
+          }
+          .site-menu .bar:hover {
+            text-shadow: 0 0 10px #00d6d6; /* Adjust the glow effect as needed */
+          }
+          .site-menu .active{
+            
+          }
+       
 .site-mobile-menu {
   width: 300px;
   position: fixed;
@@ -595,17 +633,18 @@ body {
 .body-content{
   top:800px;
   position: absolute;
-  width: 100%;
+  width: 90%;
   display: flex;
   padding-left: 100px;
   padding-right: 100px;
+  justify-content: space-between;
 }
 
 .gradient-border {
   color: #fff;
   background-color: rgba(252, 253, 253, 0.042);
   width: 60%;
-  margin-right: 100px;
+  font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 30px;
@@ -613,6 +652,7 @@ body {
   border-radius: 30px;
   border: 2px solid #03B3C7;
   text-align: justify;
+  height: fit-content;
 }
 
 .logo1{
@@ -638,9 +678,12 @@ body {
   .tagline{font-size: 25px;
   top: 400px;}
   .arrows{top:500px;}
-    .body-content{flex-direction: column-reverse; /* Stack items vertically */
+    .body-content{
+      width: 100%;
+      top: 600px;
+      flex-direction: column-reverse; /* Stack items vertically */
       align-items: center;
-    padding: none;}
+    }
       .gradient-border {
         color: #fff;
         background-color: rgba(252, 253, 253, 0.042);
@@ -674,4 +717,10 @@ body {
   .tagline{font-size: 20px;
     top: 300px;}
     .arrows{top:370px;}
+    .body-content{top: 450px;
+    padding-left: 20px;
+  padding-right: 20px;
+width: 100%;}
+    .gradient-border{font-size: 12px;}
+    .logo1{height: 100px;}
 } 
