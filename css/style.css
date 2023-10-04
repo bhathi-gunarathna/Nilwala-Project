@@ -71,14 +71,7 @@ a {
     margin-bottom: 0;
     padding: 5px;
     font-size: px; }
-    .site-navbar .site-navigation .site-menu .active > a span {
-      background: #00777F;
-      color: #fff;
-      border-style:solid;
-      border-color: linear-gradient(#00D6D6, #0069BC);
-      border-radius: 11px;
-      display: inline-block;
-      padding: 5px 20px; }
+    
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -599,6 +592,32 @@ body {
   z-index: 1;
   font-size: 30px;
 }
+.body-content{
+  top:800px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.gradient-border {
+  color: #fff;
+  background-color: rgba(252, 253, 253, 0.042);
+  width: 60%;
+  margin-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  border: 2px solid #03B3C7;
+  text-align: justify;
+}
+
+.logo1{
+  height: 200px;
+}
 @media screen and (max-width: 1080px) {
   .hero-text{top:200px}
   .welcome {
@@ -619,6 +638,21 @@ body {
   .tagline{font-size: 25px;
   top: 400px;}
   .arrows{top:500px;}
+    .body-content{flex-direction: column-reverse; /* Stack items vertically */
+      align-items: center;
+    padding: none;}
+      .gradient-border {
+        color: #fff;
+        background-color: rgba(252, 253, 253, 0.042);
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 30px;
+        border: 2px solid #03B3C7;
+      }
+      
 }
 @media screen and (max-width: 768px) {
   .hero-text{top:150px}
