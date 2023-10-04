@@ -48,7 +48,9 @@ a {
   z-index: 1999;
   position: absolute;
   top: 2rem;
-  width: 100%; }
+  width: 100%;
+  position: fixed; 
+  }
   .site-navbar.transparent {
     background: transparent; }
   .site-navbar.absolute {
@@ -70,13 +72,14 @@ a {
     padding: 5px;
     font-size: px; }
     .site-navbar .site-navigation .site-menu .active > a span {
-      background: #00777F;
       color: #fff;
-      border-style:solid;
-      border-color: linear-gradient(#00D6D6, #0069BC);
-      border-radius: 11px;
-      display: inline-block;
-      padding: 5px 20px; }
+      border:3px solid #0000;
+      border-radius:11px;
+      background:
+        linear-gradient(#00777F,#00777F) padding-box,
+        linear-gradient(45deg,#00D6D6,#0069BC) border-box;
+    }
+      
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
