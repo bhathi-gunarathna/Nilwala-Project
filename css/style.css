@@ -927,10 +927,9 @@ svg {
   cursor:pointer;
 }
 
-
+/*
 .anime-container {
   position: relative;
-  z-index: -100;
 }
 
 .anime-container .dot{
@@ -938,6 +937,7 @@ svg {
   border-radius: 50%;
   background-color: #4478e3;
 }
+*/
 
 .wave {
   animation: wave 3s linear;
@@ -1099,7 +1099,6 @@ svg {
     filter:blur(10px);
     opacity: 0.5;
   }
-
   .hero-text{top:150px}
   .welcome {
      /* Adjust the size for smaller screens */
