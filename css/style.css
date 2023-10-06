@@ -1099,6 +1099,7 @@ svg {
     filter:blur(10px);
     opacity: 0.5;
   }
+
   .hero-text{top:150px}
   .welcome {
      /* Adjust the size for smaller screens */
