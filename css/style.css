@@ -930,7 +930,7 @@ svg {
 
 .anime-container {
   position: relative;
-  z-index: -100;
+  
 }
 
 .anime-container .dot{
