@@ -6,8 +6,8 @@
 
 body {
     font-family: "poppins","Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    background-color: #fff;
-    height: 500vh;
+    width: 100%;
+    height: 700vh;
     position:static; 
     overflow-x: hidden;
     padding: 0;
@@ -50,7 +50,7 @@ a {
     a, a:hover {
     text-decoration: none !important; }
 .hero {
-    height: 300vh;
+    height: 500vh;
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -192,38 +192,35 @@ box-shadow:
 
 /*-------------- Hero Section ----------*/
 .body-content{
-    top:800px;
-    position: absolute;
-    width: 90%;
-    display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
-    justify-content: space-between;
-    color: #fff;
+    position:absolute;
     width: 100%;
+    display:flex;
+    justify-content: space-between;
     text-align: center;
   }
-  .body-content p{
-    font-size: 18px;
+.body-content p{
+  font-size: 18px;
   }
-  .gradient-border {
-    color: #fff;
-    background-color: rgba(252, 253, 253, 0.042);
-    width: 60%;
-    font-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-radius: 30px;
-    border: 2px solid #03B3C7;
-    text-align: justify;
-    height: fit-content;
+.gradient-border {
+  color: #fff;
+  background-color: rgba(252, 253, 253, 0.042);
+  width: 60%;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  border: 2px solid #03B3C7;
+  text-align: justify;
+  height: fit-content;
+  text-align: center;
   }
   
-  .logo1{
-    height: 200px;
+.logo1{
+  height: 200px;
   }
+
   @media screen and (max-width: 1080px) {
     .hero-text{top:200px}
     .welcome {
@@ -293,157 +290,110 @@ box-shadow:
   } 
   
   /*-------------- National -----------------------*/
-  .gradient-border{
-    text-align: center;
+
+.artical1{ /*National*/
+  justify-content: center;
+  position:absolute;
+  top:100px;
+  width: 70%;
+  left: 10%;
+  }
+.logo1{
+  height: 600px;
+  padding-left:50% ;
+  box-shadow: #0C0E1E 0 0 0 0;
+  filter: drop-shadow(10px 1px 15px #5eb3bc);
   }
 
-  .artical1{ /*National*/
-    justify-content: center;
-    position:absolute;
-    top:100px;
-    left: 1%;
-    padding-left: 100px;
-    padding-right: 0px;
-    
-  }
-  .logo1{
-    height: 600px;
-    padding-bottom: 60px;
-    box-shadow: #0C0E1E 0 0 0 0;
-    filter: drop-shadow(10px 1px 15px #5eb3bc);
-  }
-  .artical2{ /*Flag*/
-    justify-content: space-between;
-    position:absolute;
-    top: 800px;
-    display: flex ;
-    left:0;
-    width: 100%;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-         
+.artical2{ /*Flag*/
+  top: 800px;
+  left:10%;
+  width: 75%;
+  text-align: center;   
  }
-  
-  .logo2{
-    height: 350px;
-    padding-left: 30px;
-    right: 100%;
-    padding-bottom: 60px;
-    box-shadow: #0C0E1E 0 0 0 0;
-    filter: drop-shadow(10px 1px 15px #5eb3bc);
+
+.logo2{
+  height: 250px;
+  box-shadow: #0C0E1E 0 0 0 0;
+  filter: drop-shadow(10px 1px 15px #5eb3bc);
   }
-  .text2{
-    left: 10%;
+.text2{
+  color: #ffffff;
+  padding-left: 10%;
   }
 
-  .artical3{ /*Leo pledge*/
-    justify-content: space-between;
-    position:absolute;
-    top: 1200px;
-    display: flex ;
-    left:200px;
-    width: 90%;
+.artical3{ /*Leo pledge*/
+  top: 1200px;
+  left:150px;
+  width: 70%;
  }
- .logo3{
-    height: 400px;
-    padding-bottom: 60px;
-    box-shadow: #0C0E1E 0 0 0 0;
-    filter: drop-shadow(10px 1px 15px #5eb3bc);
+.logo3{
+  height: 320px;
+  box-shadow: #0C0E1E 0 0 0 0;
+  filter: drop-shadow(10px 1px 15px #5eb3bc);
+}
+.text3{
+  color: #ffffff;
   }
 
-  .artical4{
-    justify-content: space-between;
-    position:absolute;
-    top: 1700px;
-    display: flex ;
-    left:0;
-    width: 90%;
+
+.artical4{
+  top: 1650px;
+  left:0;
+  width: 80%;
  }
- .logo4{
-  height: 400px;
-  padding-bottom: 60px;
+.logo4{
+  height: 300px;
+  padding-left: 100%;
   box-shadow: #0C0E1E 0 0 0 0;
   filter:drop-shadow(10px 1px 15px #5eb3bc);
   }
-  
-  .logo4:before {
-    content:'';
-    z-index:1;
-    position:absolute;
-    display:block;
-    width:80%;
-    height:70%;
-    top:15%;
-    left:10%;
-    transition: 0.3s opacity ease-in-out;
-    filter:blur(15px);
-    opacity:0;
-    filter:drop-shadow(10px 1px 15px #5eb3bc);
+.text4{
+  color: #ffffff;
   }
   
-  .logo4:hover:before {
-    opacity:1;
-    transition: 0.3s opacity ease-in-out;
-    filter:blur(25px);
-    filter:drop-shadow(10px 1px 15px #9fe3ea);
-    transform: scale(1);
-  }
   
-  .logo4:after {
-    content:'CLICK ME!';
-    text-align:center;
-    line-height:40px;
-    font-size:18px;
-    color:rgba(235,235,235,1);
-    font-weight:bold;
-    z-index:5;
-    position:absolute;
-    display:block;
-    border-radius:180px;
-    width:92%;
-    height:80%;
-    top:10%;
-    left:4%;  
-    filter:drop-shadow(10px 1px 15px #5eb3bc);
-  }
+.artical5{
+  top: 2100px;
+  display: flex ;
+  justify-content: center;
+  width: 100%;
+}
 
-  .box{
-    padding-top: 50px;
-  }
 
-  .artical5{
-    justify-content: space-between;
-    position:absolute;
-    top: 2250px;
-    display: flex ;
-    justify-content: center;
-    left:50;
-    width: 100%;}
-
-  .artical6{
-    justify-content: space-between;
-    position:absolute;
-    top: 3000px;
-    display:inline-block;
-    justify-content: center;
-    left:0;
-    width: 100%;
- }
 
  /*-----------------------------------------------------------------------*/
+ .artical6{
+  top: 2990px;
+  left:20%;
+  width: 85%;
+  
+  text-align: justify;
+
+ 
+ }
+ .artical6-1{
+  justify-content: center;
+ }
+
  .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-}
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+  justify-content: space-around;
+ }
 .grid-item {
-  padding: 10px;
+  padding: 0px;
   font-size: 30px;
   text-align: center;
+  border-radius: 5px;
 }
-
-
+.box{
+  color: #fff;
+  width: 70%;
+  font-size: 16px;
+  text-align: center;
+}
 
 
 
@@ -453,6 +403,7 @@ box-shadow:
   display: flex;
   justify-content: space-between;
   flex-wrap:wrap;
+  padding: auto;
   
 }
 
@@ -574,3 +525,5 @@ box-shadow:
 .image-part{
  height: 210px;
 }
+
+/*--------------------------------------------------------*/
