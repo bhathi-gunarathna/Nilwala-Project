@@ -690,8 +690,8 @@ body {
   position: absolute;
   width: 100%;
   display: flex;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
   justify-content: space-between;
   /* padding-bottom: 200px; */
   /* margin-bottom: 200px; */
@@ -712,10 +712,7 @@ body {
   font-family: 'Poppins', sans-serif;
   /* background-color: rgba(252, 253, 253, 0.042); */
   line-height: 1.5;
-  width: 500px;
-  height: 382px;
-  flex-shrink: 0;
-  /* width: 70%; */
+  width: 70%;
   font-size: 18px;
   font-weight: 300;
   padding-left: 40px;
