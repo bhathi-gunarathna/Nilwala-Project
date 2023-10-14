@@ -1267,12 +1267,12 @@ body {
 }
 .welcome2{
   text-align: center;
-  top: 1720px;
+  top: 1750px;
   line-height: 0.8;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 50%);
-  font-size: 380px;
+  font-size: 350px;
   margin-bottom: 40px;
   color:transparent;
   font-family: 'Staatliches', cursive;
