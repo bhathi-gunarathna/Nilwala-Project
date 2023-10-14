@@ -13,7 +13,7 @@
 body {
     font-family: "Poppins","Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     width: 100%;
-    height: 700vh;
+    height: 800vh;
     position:static; 
     overflow-x: hidden;
     padding: 0;
@@ -379,11 +379,50 @@ box-shadow:
   top: 2990px;
   left:20%;
   width: 85%;
-  
   text-align: justify;
 
  
  }
+
+ .artical7{
+  
+  position: absolute;
+  /* border: 1px solid red; */
+  top: 4390px;
+  /* left:20%; */
+  margin: auto;
+  width: 100%;
+  text-align: center;
+ }
+
+ .directors{
+  margin: auto;
+  width: 80%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+ }
+
+
+ .artical7 h2{
+  /* width:60%; */
+  /* border: 1px solid red; */
+  color: rgb(211, 211, 211);
+  font-size: 50px; 
+  line-height: 4;
+  /* font-weight: 00; */
+  }
+
+ .artical7 h1{
+  /* width:60%; */
+  /* border: 1px solid red; */
+  color: rgb(211, 211, 211);
+  font-size: calc(10px + 0.5vw); 
+  /* line-height: 0.8; */
+  /* padding-left: 30%; */
+  /* text-align: left; */
+}
+
  .artical6-1{
   justify-content: center;
  }
