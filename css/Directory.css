@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@200;300;500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif}
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
 
 body {
-    font-family: "poppins","Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Poppins","Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     width: 100%;
     height: 700vh;
     position:static; 
@@ -36,7 +42,8 @@ body:before {
     visibility: visible; }
 
 p {
-    color: #b3b3b3;
+   font-family: 'Noto Sans Sinhala', sans-serif;
+    color: #c9c9c9;
     font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6,
@@ -217,9 +224,19 @@ box-shadow:
   text-align: center;
   }
   
-.logo1{
-  height: 200px;
+  .anthem-title{
+    font-family: 'Noto Sans Sinhala', sans-serif;
+    font-weight: 500;
   }
+
+
+.logo1{
+  height: 600px;
+  padding-left:50% ;
+  /* box-shadow: #0C0E1E 0 0 0 0; */
+  /* filter: drop-shadow(10px 1px 15px #5eb3bc); */
+  /* height: 200px; */
+}
 
   @media screen and (max-width: 1080px) {
     .hero-text{top:200px}
@@ -285,7 +302,7 @@ box-shadow:
     padding-right: 20px;
   width: 100%;}
       .gradient-border{font-size: 12px;}
-      .logo1{height: 100px;}
+      .logo1{height: 200px;}
       .logo2{height: 100px;}
   } 
   
@@ -298,12 +315,7 @@ box-shadow:
   width: 70%;
   left: 10%;
   }
-.logo1{
-  height: 600px;
-  padding-left:50% ;
-  box-shadow: #0C0E1E 0 0 0 0;
-  filter: drop-shadow(10px 1px 15px #5eb3bc);
-  }
+
 
 .artical2{ /*Flag*/
   top: 800px;
@@ -314,8 +326,8 @@ box-shadow:
 
 .logo2{
   height: 250px;
-  box-shadow: #0C0E1E 0 0 0 0;
-  filter: drop-shadow(10px 1px 15px #5eb3bc);
+  /* box-shadow: #0C0E1E 0 0 0 0; */
+  /* filter: drop-shadow(10px 1px 15px #5eb3bc); */
   }
 .text2{
   color: #ffffff;
@@ -329,8 +341,8 @@ box-shadow:
  }
 .logo3{
   height: 320px;
-  box-shadow: #0C0E1E 0 0 0 0;
-  filter: drop-shadow(10px 1px 15px #5eb3bc);
+  /* box-shadow: #0C0E1E 0 0 0 0; */
+  /* filter: drop-shadow(10px 1px 15px #5eb3bc); */
 }
 .text3{
   color: #ffffff;
@@ -345,8 +357,8 @@ box-shadow:
 .logo4{
   height: 300px;
   padding-left: 100%;
-  box-shadow: #0C0E1E 0 0 0 0;
-  filter:drop-shadow(10px 1px 15px #5eb3bc);
+  /* box-shadow: #0C0E1E 0 0 0 0; */
+  /* filter:drop-shadow(10px 1px 15px #5eb3bc); */
   }
 .text4{
   color: #ffffff;
